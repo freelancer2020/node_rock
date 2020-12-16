@@ -29,5 +29,6 @@ const obj = {
 
 module.exports = {
     name: 'Mostafa',
-    title: 'JavaScript Developer'
+    title: 'JavaScript Developer',
+    stack: ['Html', 'Css', 'Sass', 'JavaScript', 'React', 'Node', 'Express', 'PostgreSQL', 'firebase[Google Clouds]', 'data structure&Algorithm', 'Git']
 }
