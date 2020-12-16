@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Node server</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type='text/css' href='styles/style.css'>
+        <script defer type='text/javascript' src='src/script.js'></script>
+    </head>
+
+    <body>
+        <header>
+            <div class='header-topic'>
+                NodeJs Server
+            </div>
+        </header>
+        
+        <div class='note-container'>
+            <input type='text' placeholder="Title.." id='note-title' />
+            <textarea placeholder="Note.." id='note-text'></textarea>
+            <div class='note-control'>
+                <button id='note-btn'>save</button>
+                <span id='note-status'></span>
+            </div>
+        </div>
+
+        <div id='form-container' method="post" enctype="multipart/form-data">
+            <form id='user-form'>
+                <input type='file' id='user-file'>
+                <input type='submit'>
+            </form>
+            <div id='msg'></div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

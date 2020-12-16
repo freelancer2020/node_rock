@@ -1,0 +1,14 @@
+https://dev.to/retool/crud-with-firestore-using-the-node-js-sdk-anp
+
+
+
+connect hosting to functions
+https://firebase.google.com/docs/hosting/functions
+
+
+config
+https://firebase.google.com/docs/hosting/full-config
+
+
+storage rules
+if request.auth != null
